@@ -1,0 +1,32 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+Django = "3.2.8"
+djangorestframework = "3.12.4"
+python-decouple = "*"
+
+[dev-packages]
+pytest = "6.2.5"
+pytest-django = "4.4.0"
+pylint = "*"
+mypy = "*"
+bandit = "*"
+coverage = {extras = ["toml"], version = "*"}
+pytest-cov = "*"
+pytest-pylint = "*"
+pytest-mypy = "*"
+pytest-randomly = "*"
+safety = "*"
+django-stubs = "*"
+djangorestframework-stubs = "*"
+types-markdown = "*"
+types-requests = "*"
+pylint-django = "*"
+pytest-dotenv = "*"
+tox = "*"
+
+[requires]
+python_version = "3.9"
