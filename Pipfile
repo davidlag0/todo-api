@@ -8,6 +8,7 @@ Django = "3.2.8"
 djangorestframework = "3.12.4"
 python-decouple = "*"
 gunicorn = "*"
+django-cors-headers = "*"
 
 [dev-packages]
 pytest = "6.2.5"
