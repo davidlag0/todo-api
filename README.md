@@ -1,4 +1,4 @@
-### Setup
+## Setup
 
 * Create a .env file with the following
 
@@ -7,8 +7,16 @@ DEBUG = True
 SECRET_KEY = 'dev'
 ```
 
+## Development
+
+### Run Development Server
+* `pipenv run python manage.py runserver`
+
 ### Format code with Black
 * `pipenv run black todoapi`
+
+### Tests
+* `pipenv run pytest`
 
 ### Deployment to Heroku
 
