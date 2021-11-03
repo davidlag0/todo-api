@@ -6,13 +6,13 @@ from rest_framework.response import Response
 from todoapi.api.serializers import PingSerializer
 
 
-class PingViewSet(mixins.RetrieveModelMixin,
-                  viewsets.GenericViewSet):
+class PingViewSet(mixins.RetrieveModelMixin, viewsets.GenericViewSet):
     """
     API endpoint that allows to PING the API.
     """
-    queryset = EmptyQuerySet # type: ignore
+
+    queryset = EmptyQuerySet  # type: ignore
     serializer_class = PingSerializer
 
     def retrieve(self, request, *args, **kwargs) -> Response:
-        return Response({'pong': kwargs['pk']})
+        return Response({"pong": kwargs["pk"]})

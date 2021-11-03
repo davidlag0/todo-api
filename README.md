@@ -7,6 +7,9 @@ DEBUG = True
 SECRET_KEY = 'dev'
 ```
 
+### Format code with Black
+* `pipenv run black todoapi`
+
 ### Deployment to Heroku
 
 At least set these environment variables when deploying to Heroku:
