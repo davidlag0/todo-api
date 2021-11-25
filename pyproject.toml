@@ -16,6 +16,7 @@ addopts = [
     "--cov-report=html",
     "--mypy",
     "--pylint",
+    "--pylint-rcfile=.pylintrc",
 ]
 
 [mypy]
