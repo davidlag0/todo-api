@@ -30,6 +30,9 @@ pylint-django = "*"
 pytest-dotenv = "*"
 tox = "*"
 black = "*"
+pyroma = "*"
+dodgy = "*"
+mccabe = "*"
 
 [requires]
 python_version = "3.9"
