@@ -9,6 +9,9 @@ SECRET_KEY = 'dev'
 
 ## Development
 
+### Install everything
+* `pipenv install --dev`
+
 ### Run Development Server
 * `pipenv run python manage.py runserver`
 
