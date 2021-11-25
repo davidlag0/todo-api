@@ -67,7 +67,7 @@ legacy_tox_ini = """
 # As django22 and django30 are giving strange errors related to Django code
 # we will support from Django 3.1 and up.
 # TODO: Keep testing with older versions of Python.
-envlist = clean,py{39,310}-django{31,32}
+envlist = clean,py{37,38,39,310}-django{31,32}
 isolated_build = True
 
 [testenv]
@@ -76,6 +76,7 @@ deps =
     django32: Django==3.2
     djangorestframework
     python-decouple
+    django-cors-headers
     pytest
     pytest-django
     pylint
